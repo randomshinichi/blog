@@ -1,0 +1,13 @@
+baseURL: ""
+disablePathToLower: true
+languageCode: en-us
+title: The Chiwbaka
+theme: herring-cove
+params:
+  github: http://www.github.com/randomshinichi
+  linkedin: https://www.linkedin.com/in/achiw/
+  email: mailto:andrew.work0, gmail
+  blog: http://do-it-big.com
+  links:
+    Home : ""
+    About: "about/"
