@@ -1,0 +1,45 @@
+#+title: hugo, org-mode, emacs
+#+date: 2018-10-03
+
+This blog used to be on Wordpress. Then I wanted to make it leaner so I could run more on my VPS, so I moved it to Jekyll. Then I got tired of setting Jekyll and its dependencies up, plus I wanted org-mode support, so I moved it to Hugo.
+
+I don't know if it's the amazing flexibility of emacs that I like, or just how amazingly useful org-mode is. org-mode has been my knowledge management system for a few months now and the ability to quickly setup whatever system I need to support my thought processes is simply liberating.
+
+For example, I press F6 from emacs:
+[[file:/emacs.png]]
+
+and emacs asks me if I want to record some thoughts on dancing, or log what I ate (to troubleshoot pimples), or write a new blog post.
+
+If I press 'd', it will open a text file called dance.org, insert the current date, and let me type in the title and the entry.
+#+BEGIN_SRC org
+* Forro/Samba/Zouk party by Dhiego and Axe Funk girl
+[2018-09-02 So]
+I finally understood that dancing is not something you have to think very consciously about...
+#+END_SRC
+
+If I press 'f', it will open a text file called food.org, record the time and date, and then I can type in what I ate.
+#+BEGIN_SRC org
+* 2018
+** 2018-08 August
+*** 2018-08-27 Montag
+*** 2018-08-28 Dienstag
+*** 2018-08-29 Mittwoch
+[2018-08-29 Mi 10:00] Less new pimples than yesterday.
+Cereal + Almond milk
+Potatoes + champignon creme
+Sausages with cheese inside
+1 Paprika, 1 apple, blueberries + frozen fruit
+#+END_SRC
+
+If I press 'b', it will prompt me for the slug, and create a file in my hugo blog's content/post directory, with the following:
+
+#+BEGIN_SRC
+#+title: (cursor goes here)
+#+date: 2018-10-03
+#+END_SRC
+
+As you can see, I like to keep separate threads of thoughts in different files, but timestamped and with some structure. This system is really flexible and doesn't force me into a specific way of working - it lets me code up my own system that fits my brain (Elisp is easy to figure out) and stores everything in text files.
+
+Evernote is the only other note-taking application I know of that is as powerful as org-mode, and it's one of those applications that tries to get you 'into the cloud', so they can charge you a subscription fee.
+
+But even Evernote has its own way of working, so you have to work within the way they envisioned. This isn't necessarily a bad thing. It's just that the freedom that org-mode allows me is entirely unexpected, because there's nothing else like it out there.
